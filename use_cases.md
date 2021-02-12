@@ -36,7 +36,8 @@ and the [Apache Parquet](https://parquet.apache.org/) format.
 
 <!-- Link to implementation matrix? -->
 
-* Feather: C++, [Python]({{ site.baseurl }}/docs/python/feather.html }}),
+* Feather: [C++]({{ site.baseurl }}/docs/cpp/ipc.html }}),
+  [Python]({{ site.baseurl }}/docs/python/feather.html }}),
   [R]({{ site.baseurl }}/docs/r/reference/read_feather.html)
 * Parquet: [C++]({{ site.baseurl }}/docs/cpp/parquet.html),
   [Python]({{ site.baseurl }}/docs/python/parquet.html),
