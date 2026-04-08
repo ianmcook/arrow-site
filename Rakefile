@@ -43,8 +43,7 @@ task :serve => webpacked_js do
   command_line << "--incremental"
   command_line << "--livereload"
   command_line << "--host=#{ENV["HOST"] || "127.0.0.1"}"
-  future = ENV["JEKYLL_FUTURE"]
-  command_line << "--future" if future
+  command_line << "--future"
   sh(*command_line)
 end
 
